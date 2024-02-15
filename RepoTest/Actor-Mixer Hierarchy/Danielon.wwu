@@ -6,6 +6,11 @@
 				<Sound Name="Aztecas_2" ID="{D40065E7-C4C9-4A89-8A09-0B3B32B4AC07}" ShortID="215606388">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
