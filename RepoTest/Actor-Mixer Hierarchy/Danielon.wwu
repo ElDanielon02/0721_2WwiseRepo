@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8A7E2EF-CE21-4565-A1CC-452B9D9C9A36}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Danielon" ID="{D8A7E2EF-CE21-4565-A1CC-452B9D9C9A36}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Aztecas_2" ID="{D40065E7-C4C9-4A89-8A09-0B3B32B4AC07}" ShortID="215606388">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96738CE5-3945-42B4-8879-BB610CC53BD3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F6013A7-C6C6-4487-9698-E029FC185D38}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Aztecas_2" ID="{58EFF0F5-CA35-4BAE-A47C-13D688F6193E}">
+							<Language>SFX</Language>
+							<AudioFile>Aztecas_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="487122558"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Aztecas_2" ID="{58EFF0F5-CA35-4BAE-A47C-13D688F6193E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
